@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Homepage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .story {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .story img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 2px solid #ffcc00;
+      padding: 2px;
+    }
+    .post {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+    }
+    .post-header {
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .post-header img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .post-header .username {
+      font-weight: bold;
+    }
+    .post-image img {
+      width: 100%;
+    }
+    .post-actions {
+      padding: 10px;
+    }
+    .post-actions span {
+      margin-right: 10px;
+    }
+    .post-actions span i {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="stories">
+      <div class="story">
+        <img src="https://via.placeholder.com/150" alt="Story 1">
+      </div>
+      <div class="story">
+        <img src="https://via.placeholder.com/150" alt="Story 2">
+      </div>
+      <div class="story">
+        <img src="https://via.placeholder.com/150" alt="Story 3">
+      </div>
+      <!-- Add more stories here -->
+    </div>
+    
+    <div class="posts">
+      <div class="post">
+        <div class="post-header">
+          <img src="https://via.placeholder.com/50" alt="User">
+          <div class="username">username</div>
+        </div>
+        <div class="post-image">
+          <img src="images/coffee.jpg" alt="Post Image">
+        </div>
+        <div class="post-actions">
+          <span><i class="fas fa-heart"></i> Like</span>
+          <span><i class="fas fa-comment"></i> Comment</span>
+          <span><i class="fas fa-share"></i> Share</span>
+        </div>
+      </div>
+      <!-- Add more posts here -->
+    </div>
+  </div>
+</body>
+</html>
